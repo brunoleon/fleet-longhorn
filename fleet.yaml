@@ -21,3 +21,7 @@ diff:
     name: volumes.longhorn.io
     operations:
     - {"op": "replace", "path": "/status"}
+
+values:
+  persistence:
+    defaultClass: false
